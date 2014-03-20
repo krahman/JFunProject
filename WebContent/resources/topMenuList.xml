@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<topmenu>
+<item>
+	<title>Help</title>
+	<link>help.html</link>
+</item>
+<item>
+	<title>Learn more</title>
+	<link>learnmore.html</link>
+</item>
+<item>
+	<title>What's new?</title>
+	<link>whatsnew.html</link>
+</item>
+<item>
+	<title>Login</title>
+	<link>login.html</link>
+</item>
+<item>
+	<title>Register</title>
+	<link>register.html</link>
+</item>
+<item>
+	<title>Home</title>
+	<link>index.html</link>
+</item>
+</topmenu>
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="./resources/css/regStyle.css" type="text/css"></link>
+<script type="text/javascript" src="./resources/jscripts/formHandler.js"></script>
+<script type="text/javascript" src="./resources/jscripts/menuHandler.js"></script>
+<title>Register</title>
+</head>
+<body onload="createMenu('register')">
+<form action="doRegister" method="get" onsubmit="return validateForm(this)">
+	<div id="wrapper">
+		<div id="top-menu">						
+		</div>
+		<div id="header-section">
+			<a href="index.html"></a>
+		</div>
+		<div id="middle-column">
+			<div class="middle-column-box-white">
+				<div class="middle-column-box-title-grey">Register</div>
+				<div class="registerForm">
+					<label>First Name :</label>
+					<input name="firstName" type="text" size="30"></input>
+					<label>Last Name :</label>
+					<input name="lastName" type="text" size="30"></input>
+					<label>Email Address :</label>
+					<input name="emailAddress" type="text" size="30"></input>
+					<br></br>
+					<label>Username :</label>
+					<input name="userName" type="text" size="30"></input>
+					<label>Password :</label>
+					<input name="userPassword" type="password" size="30"></input>
+					<label>Retype Password :</label>
+					<input name="retypePassword" type="password" size="30"></input><br/>
+					<input id="registerbutton" type="submit" value="Register"></input>					
+				</div>
+				<div class="buttons">					
+					
+				</div>
+			</div>						
+		</div>
+		<div id="footer">&copy Copyright Share-IT 2008 <br> Nanyang Technological University <br></div>
+	</div>
+</form>
+</body>
+</html>
